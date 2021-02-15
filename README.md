@@ -23,3 +23,5 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [ ] Membuat datawarehouse dan datamart
 - [ ] Memfinalisasikan semua file sebelum mentoring (23 Februari)
 
+Progress:
+- Sementara user_details drop baris yang duplikat, namun di kolom user_name masih ada duplikat sehingga primary key masih belum ditentukan.
