@@ -28,3 +28,4 @@ Progress:
 - user_details tidak jadi didrop nilainya di database; artinya user_details_cleaned.csv belum rencana dipakai.
 - seller_details sementara langsung digunakan seperti raw karena seller_id sudah unique (kalau di database belum dibuat primary keynya).
 - products_details memiliki product_id yang unique (kalau di database belum dibuat primary keynya).
+- payment_details memiliki order_id yang duplikat (kemungkinan membeli barang lebih dari satu jenis pada sebuah transaksi), dan tidak memiliki baris yang duplikat.
