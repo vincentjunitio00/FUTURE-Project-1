@@ -24,4 +24,6 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [ ] Memfinalisasikan semua file sebelum mentoring (23 Februari)
 
 Progress:
-- Sementara user_details drop baris yang duplikat, namun di kolom user_name masih ada duplikat sehingga primary key masih belum ditentukan.
+* semua akhiran dataset (csv) diubah jadi details di database.
+- user_details sementara drop baris yang duplikat, namun di kolom user_name masih ada duplikat sehingga primary key masih belum ditentukan.
+- seller_details sementara langsung digunakan seperti raw karena seller_id sudah unique (kalau di database belum dibuat primary keynya).
