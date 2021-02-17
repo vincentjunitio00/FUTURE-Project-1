@@ -26,7 +26,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 Progress:
 *semua akhiran dataset (csv) diubah jadi details di database.*
 - user_details tidak jadi didrop nilainya di database; artinya user_details_cleaned.csv belum rencana dipakai.
-- seller_details sementara langsung digunakan seperti raw karena seller_id sudah unique (kalau di database belum dibuat primary keynya).
+- seller_details sementara langsung digunakan seperti raw karena seller_id sudah unique (kalau di database sudah dibuat primary keynya).
 - products_details memiliki product_id yang unique (kalau di database belum dibuat primary keynya).
 - payment_details memiliki order_id yang duplikat (kemungkinan membeli barang lebih dari satu jenis pada sebuah transaksi), dan tidak memiliki baris yang duplikat.
 - order_item_details tidak memiliki nilai duplikat, namun primary key tidak bisa ditentukan hanya oleh satu kolom/fitur saja.
