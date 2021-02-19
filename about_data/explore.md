@@ -36,4 +36,10 @@ select count(product_id) from products_details: 32951\
 select count(distinct(product_id)) from products_details: 32951
 Selain itu, tidak ada nilai duplikat sehingga dapat diasumsikan bahwa setiap product hanya memiliki satu product_id. Pada product_category, terdapat 1 kategori yang tidak memiliki kategori tetapi bukan null. 
 
+## feedback_details ##
+
+feedback_id: id dari feedback (composite primary key)\
+order_id: id dari oder (composite primary key)\
+
+feedback_id, order_id adalah composite primary key karena feedback_id dan order_id masing-masing tidak unique.
 ## Upcoming ##
