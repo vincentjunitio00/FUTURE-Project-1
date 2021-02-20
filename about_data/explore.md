@@ -5,7 +5,7 @@ Halaman ini akan berisi penjelasan mengenai eksplorasi data yang telah saya laku
 
 ## seller_details ## 
 
-seller_details memiliki 4 kolom, yaitu seller_id, seller_zip_code, seller_city, seller_state.
+seller_details memiliki empat kolom, yaitu seller_id, seller_zip_code, seller_city, seller_state.
 
 seller_id: id dari seller (primary key)\
 seller_zip_code: kode pos dari seller\
@@ -19,7 +19,7 @@ Selain itu, tidak ada nilai duplikat sehingga dapat diasumsikan bahwa setiap sel
 
 ## product_details ##
 
-product_details memiliki 4 kolom, yaitu product_id, product_category, product_name_length, product_description_length, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm.
+product_details memiliki empat kolom, yaitu product_id, product_category, product_name_length, product_description_length, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm.
 
 product_id: id dari product (primary key)\
 product_category: jenis kategori dari product; terdapat 623 baris kosong -> select COUNT(\*) from products_details where product_category = '' group by product_category\
@@ -53,6 +53,20 @@ select count(order_id) from feedback_details: 100000\
 select count(distinct(order_id)) from feedback_details: 99441\
 Untuk feedback_id, order_id:\
 select sum(counts) from ( select feedback_id, order_id, count(\*) as counts from feedback_details group by feedback_id , order_id) as sums where counts = 1
+
+## payment_details ##
+
+payment_details memiliki lima kolom, yaitu order_id, payment_sequential, payment_type, payment_installments, payment_value.
+
+order_id: id dari order (composite primary key)\
+payment_sequential: urutan pembayaran / payment (asumsinya sebuah order_id bisa memiliki beberapa kali pembayaran) (composite primary key); ada order_id yang payment_sequentialnya sampai 29\
+payment_type: jenis pembayaran / payment; ada lima jenis, yaitu voucher, debit_card, blipay, credit_card, not_defined\
+payment_installments: cicilan pembayaran / payment; dari 0 sampai 24, bernilai 0 hanya dimiliki oleh order yang payment_type adalah credit_card\
+payment_value: harga yang dibayar; nilai maksimalnya adalah 13664080, nilai kedua maksimal adalah 7274880 - setelah dihitung sekilas, kemungkinan besar terdapat banyak outlier
+
+order_id, payment_sequential adalah composite primary key.\
+Untuk order_id, payment_sequential:\
+select sum(count) from (select order_id, payment_sequential, count(\*) from payment_details group by order_id, payment_sequential) as opc
 
 
 ## Upcoming ##
