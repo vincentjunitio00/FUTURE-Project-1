@@ -33,13 +33,26 @@ product_width_cm: lebar product; terdapat 2 baris yang tidak bernilai
 
 Cara menentukan primary key dengan menjalankan query:\
 select count(product_id) from products_details: 32951\
-select count(distinct(product_id)) from products_details: 32951
+select count(distinct(product_id)) from products_details: 32951\
 Selain itu, tidak ada nilai duplikat sehingga dapat diasumsikan bahwa setiap product hanya memiliki satu product_id. Pada product_category, terdapat 1 kategori yang tidak memiliki kategori tetapi bukan null. 
 
 ## feedback_details ##
 
 feedback_id: id dari feedback (composite primary key)\
-order_id: id dari oder (composite primary key)\
+order_id: id dari order (composite primary key)\
+feedback_score: rentang nilai kepuasan; dari rentang 1 - 5 dan tidak ada nilai kosong\
+feedback_form_sent_date: tanggal dan waktu pengiriman feedback form; tidak ada nilai nilai kosong\
+feedback_answer_date: tanggal dan waktu pengguna mengirimkan feedback form; tidak ada nilai nilai kosong
 
-feedback_id, order_id adalah composite primary key karena feedback_id dan order_id masing-masing tidak unique.
+feedback_id, order_id adalah composite primary key karena feedback_id dan order_id masing-masing tidak unique.\
+Untuk feedback_id:\
+select count(feedback_id) from feedback_details: 100000\
+select count(distinct(feedback_id)) from feedback_details: 99173\
+Untuk order_id:\
+select count(order_id) from feedback_details: 100000\
+select count(distinct(order_id)) from feedback_details: 99441\
+Untuk feedback_id, order_id:\
+select sum(counts) from ( select feedback_id, order_id, count(\*) as counts from feedback_details group by feedback_id , order_id) as sums where counts = 1
+
+
 ## Upcoming ##
