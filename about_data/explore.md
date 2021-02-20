@@ -68,5 +68,17 @@ order_id, payment_sequential adalah composite primary key.\
 Untuk order_id, payment_sequential:\
 select sum(count) from (select order_id, payment_sequential, count(\*) from payment_details group by order_id, payment_sequential) as opc
 
+## user_details ##
+\* ! ragu dengan bagian ini !
+user_details memiliki empat kolom, yaitu user_name, customer_zip_code, customer_city, customer_state. Di database, tabel ini masih mengandung banyak baris yang duplikat (masih ragu apakah boleh langsung delete baris yang duplikat atau dibiarkan terlebih dahulu kondisi ini).
+
+user_name: username pengguna (composite primary key)\
+customer_zip_code: kode pos dari pelanggan / customer\
+customer_city: kota dari pelanggan / customer\
+customer_state: negara bagian dari pelanggan / customer
+
+*saya mencoba skenario dimana baris yang duplikat dihapus, maka primary keynya composite, yaitu user_name, customer_zip_code, customer_city / customer_state (bisa salah satu). 
+
+## order_details ##
 
 ## Upcoming ##
