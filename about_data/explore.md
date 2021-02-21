@@ -81,4 +81,18 @@ customer_state: negara bagian dari pelanggan / customer
 
 ## order_details ##
 
-## Upcoming ##
+order_id: id dari pesanan / order (primary key)\
+user_name: username dari pemesan; mengandung nilai duplikat dimana satu user_name dapat memiliki banyak order_id\
+order_status: status dari pesanan / order; unavailable tidak memiliki pickup_date dan delivered_date, delivered memiliki seluruh date, processing hanya memiliki order_date dan order_approved_date, canceled hanya memiliki order_date, shipped tidak memiliki delivered_date, created hanya memiliki order_date dan estimated_time_delivery, approved dan invoiced tidak memiliki pickup_date dan delivered_date\
+order_date: tanggal pesan\
+order_approved_date: tanggal pesanan di-approved\
+pickup_date: tanggal pesanan di-pickup\
+delivered_date: tanggal pesanan dikirimkan\
+estimated_time_delivery: tanggal perkiraan pesanan akan sampai
+
+Cara menentukan primary key dengan menjalankan query:\
+select count(order_id) from order_details: 99441\
+select count(distinct(order_id)) from order_details: 99441\
+
+
+## order_item_details ##
