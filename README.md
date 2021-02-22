@@ -18,9 +18,9 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 * 9 Februari - 22 Februari
 
 - [X] Membuat repository github
-- [ ] Melakukan eksplorasi mengenai star schema
-- [ ] Membuat relationship diagram (ERD) antar tabel
-- [ ] Membuat datawarehouse dan datamart
+- [X] Melakukan eksplorasi mengenai star schema: terdiri dari fact table dan dimension table
+- [X] Membuat relationship diagram (ERD) antar tabel, kecuali user_details / user_dataset
+- [X] Menentukan primary key dan foreign key, kecuali user_details / user_dataset
 - [ ] Memfinalisasikan semua file sebelum mentoring (23 Februari)
 
 Progress:
