@@ -21,6 +21,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [X] Melakukan eksplorasi mengenai star schema: terdiri dari fact table dan dimension table
 - [X] Membuat relationship diagram (ERD) antar tabel, kecuali user_details / user_dataset
 - [X] Menentukan primary key dan foreign key, kecuali user_details / user_dataset
+- [X] Export backup file .bak (tapi ragu apakah caranya benar)
 - [ ] Memfinalisasikan semua file sebelum mentoring (23 Februari)
 
 Progress:
