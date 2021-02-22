@@ -96,3 +96,16 @@ select count(distinct(order_id)) from order_details: 99441\
 
 
 ## order_item_details ##
+order_id: id dari order (composite primary key)\
+order_item_id: id / urutan order seperti product pertama ber-id 1, dan product kedua ber-id 2 (composite primary key)\
+product_id: id dari product\
+seller_id: id dari seller\
+pickup_limit_time: waktu maksimal pesanan dilakukan pickup\
+price: harga pesanan\
+shipping_cost: biaya pengiriman
+
+Ada order_id yang sama tetapi product_id dan seller_id yang berbeda (pertanyaan: apakah memungkinkan untuk membeli product dari dua seller yang berbeda pada satu struk yang sama?).
+
+Cara menentukan primary key dengan menjalankan query:\
+select count(\*) from order_item_details oid2 group by (order_id, order_item_id) order by count(\*) desc
+
