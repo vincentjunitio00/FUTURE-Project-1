@@ -109,3 +109,13 @@ Ada order_id yang sama tetapi product_id dan seller_id yang berbeda (pertanyaan:
 Cara menentukan primary key dengan menjalankan query:\
 select count(\*) from order_item_details oid2 group by (order_id, order_item_id) order by count(\*) desc
 
+
+## Cardinality / Relationship ##
+| Tabel Pertama | Relationship | Tabel Kedua |
+| ------------- | ------------ | ----------- |
+|product_details| One to Many  | order_item_details|
+|order_details| One to Many  | order_item_details|
+|seller_details| One to Many  | order_item_details|
+|order_details| One to Many  | payment_details|
+|feedback_details| Many to One  | order_details|
+|user_details| <>  | <> |
