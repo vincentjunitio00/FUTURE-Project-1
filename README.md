@@ -22,4 +22,8 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [X] Membuat relationship diagram (ERD) antar tabel, kecuali user_details / user_dataset
 - [X] Menentukan primary key dan foreign key, kecuali user_details / user_dataset
 - [X] Export backup file .bak (tapi ragu apakah caranya benar)
-- [ ] Memfinalisasikan semua file sebelum mentoring (23 Februari)
+- [X] Memfinalisasikan semua file sebelum mentoring (23 Februari): explore.md, .bak, erd.png
+
+* yang binggung:
+1. Apakah 7 csv tersebut kalau import ke dbeaver dan jadi satu database sudah dinamakan Data warehouse?
+2. Apakah cara export .bak file sudah benar?
