@@ -27,3 +27,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 * yang binggung:
 1. Apakah 7 csv tersebut kalau import ke dbeaver dan jadi satu database sudah dinamakan Data warehouse?
 2. Apakah cara export .bak file sudah benar?
+
+* 23 Februari - 8 Maret
+
+- [ ] Eksplor ulang cara pembuatan data warehouse
