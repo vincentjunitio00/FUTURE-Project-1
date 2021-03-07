@@ -25,7 +25,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [X] Memfinalisasikan semua file sebelum mentoring (23 Februari): explore.md, .bak, erd.png
 
 * yang binggung:
-1. Apakah 7 csv tersebut kalau import ke dbeaver dan jadi satu database sudah dinamakan Data warehouse?
+1. Apakah 7 csv tersebut kalau import ke dbeaver dan jadi satu database sudah dinamakan Data warehouse? [Solved] => 7 csv ini kalau di satu database jadi OLTP dan untuk ke DWH butuh ETL karena struktur DWH berbeda dengan database OLTP.
 2. Apakah cara export .bak file sudah benar?
 
 * 23 Februari - 8 Maret
