@@ -30,4 +30,9 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 
 * 23 Februari - 8 Maret
 
-- [ ] Eksplor ulang cara pembuatan data warehouse
+- [X] Eksplor ulang cara pembuatan data warehouse
+
+* 9 Maret - 23 Maret
+
+- [ ] Belajar Talend dan review ulang project \
+* database di postgre harus ulang karena sudah dilakukan pengubahan dari data asli yang dikirim mentor
