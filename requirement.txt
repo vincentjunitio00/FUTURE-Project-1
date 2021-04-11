@@ -1,1 +1,2 @@
 PostgreSQL 9.5
+Talend Open Studio V7.2.1
