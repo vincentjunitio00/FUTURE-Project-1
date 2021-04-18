@@ -37,6 +37,10 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [X] Belajar Talend dan review ulang project \
 * database di postgre harus ulang karena sudah dilakukan pengubahan dari data asli yang dikirim mentor
 
-* 24 Maret - 7 Maret
+* 24 Maret - 7 April
 
 - [X] Ujian Tengah Semester di Universitas Gadjah Mada
+
+* 8 April - 21 April
+
+- [] Mencari business question
