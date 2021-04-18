@@ -43,4 +43,4 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 
 * 8 April - 21 April
 
-- [] Mencari business question
+- [ ] Mencari business question
