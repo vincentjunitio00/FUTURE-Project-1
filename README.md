@@ -34,7 +34,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 
 * 9 Maret - 23 Maret
 
-- [X] Belajar Talend dan review ulang project \
+- [X] Belajar Talend dan review ulang project \ 
 * database di postgre harus ulang karena sudah dilakukan pengubahan dari data asli yang dikirim mentor
 
 * 24 Maret - 7 April
@@ -44,3 +44,8 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 * 8 April - 21 April
 
 - [ ] Mencari business question
+
+* 22 April - 5 Mei
+
+- [X] Membuat dimension table Date.\ 
+Caranya insert excel file ke talend baru import ke schema staging.
