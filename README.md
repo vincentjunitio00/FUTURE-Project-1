@@ -49,3 +49,5 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 
 - [X] Membuat dimension table Date.\
 Caranya insert excel file ke talend baru import ke schema staging.
+- [X] Melakukan update pada erd
+- [X] Merubah tipe data kolom
