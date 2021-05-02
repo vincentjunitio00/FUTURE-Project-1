@@ -22,7 +22,7 @@ Selain itu, tidak ada nilai duplikat sehingga dapat diasumsikan bahwa setiap sel
 product_dataset memiliki empat kolom, yaitu product_id, product_category, product_name_length, product_description_length, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm.
 
 product_id: id dari product (primary key)\
-product_category: jenis kategori dari product; terdapat 623 baris kosong -> select COUNT(\*) from products_details where product_category = '' group by product_category\
+product_category: jenis kategori dari product; terdapat 623 baris kosong -> select COUNT(\*) from products_dataset where product_category = '' group by product_category\
 product_name_length: panjang huruf/kata dari nama product; terdapat 610 baris yang tidak bernilai\
 product_description_length: panjang huruf/kata dari deskripsi product; terdapat 610 baris yang tidak bernilai\
 product_photos_qty: jumlah foto product yang diupload; terdapat 610 baris yang tidak bernilai\
