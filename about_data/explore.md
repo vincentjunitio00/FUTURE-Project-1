@@ -113,9 +113,9 @@ select count(\*) from order_item_details oid2 group by (order_id, order_item_id)
 ## Cardinality / Relationship ##
 | Tabel Pertama | Relationship | Tabel Kedua |
 | ------------- | ------------ | ----------- |
-|product_details| One to Many  | order_item_details|
-|order_details| One to Many  | order_item_details|
-|seller_details| One to Many  | order_item_details|
-|order_details| One to Many  | payment_details|
-|feedback_details| Many to One  | order_details|
-|user_details| <>  | <> |
+|product_dataset| One to Many  | order_item_dataset|
+|order_dataset| One to Many  | order_item_dataset|
+|seller_dataset| One to Many  | order_item_dataset|
+|order_dataset| One to Many  | payment_dataset|
+|feedback_dataset| Many to One  | order_dataset|
+|user_dataset| One to Many  | order_dataset |
