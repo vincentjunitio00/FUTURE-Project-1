@@ -51,3 +51,4 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 Caranya insert excel file ke talend baru import ke schema staging.
 - [X] Melakukan update pada erd
 - [X] Merubah tipe data kolom
+- [X] Selesai membuat Fact Sales
