@@ -52,3 +52,7 @@ Caranya insert excel file ke talend baru import ke schema staging.
 - [X] Melakukan update pada erd
 - [X] Merubah tipe data kolom
 - [X] Selesai membuat Fact Sales
+
+* 5 Mei - 26 Mei
+
+- [X] Mencari business question
