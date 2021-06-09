@@ -56,3 +56,7 @@ Caranya insert excel file ke talend baru import ke schema staging.
 * 5 Mei - 26 Mei
 
 - [X] Mencari business question
+
+* 27 Mei - 9 Juni
+
+- [X] Mencari business question
