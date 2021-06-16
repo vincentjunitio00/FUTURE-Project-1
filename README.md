@@ -4,6 +4,8 @@ Repository yang memuat semua file dalam pengerjaan Project #1 Blibli FUTURE Prog
 
 Oleh: Vincent Junitio Ungu - Data Track
 
+Google drive: https://drive.google.com/drive/folders/15m9gJwCkSskd4R_irVgVe175hNZWkn-C?usp=sharing
+
 
 # Pengenalan Proyek
 Proyek ini akan menggunakan dataset dalam bidang *E-commerce* untuk menelusuri dataset, menjawab pertanyaan terkait perilaku bisnis, serta memberikan solusi dari permasalahan yang diidentifikasi. 
@@ -60,3 +62,6 @@ Caranya insert excel file ke talend baru import ke schema staging.
 * 27 Mei - 9 Juni
 
 - [X] Mencari business question
+
+* 10 Juni - 23 Juni
+
