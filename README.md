@@ -45,7 +45,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 
 * 8 April - 21 April
 
-- [ ] Mencari business question
+- [X] Mencari business question
 
 * 22 April - 5 Mei
 
@@ -57,14 +57,17 @@ Caranya insert excel file ke talend baru import ke schema staging.
 
 * 5 Mei - 26 Mei
 
-- [X] Mencari business question
+- [X] Mencari business question pertama
 
 * 27 Mei - 9 Juni
 
-- [X] Mencari business question
+- [X] Mencari business question kedua
 
 * 10 Juni - 23 Juni
 
 - [X] Mengfinalisasikan datawarehouse
 - [X] Membuat datamart untuk business question pertama
 
+* 24 Juni - 7 Juli
+- [X] Menyiapkan business question pertama dan kedua
+- [X] Mencari business question ketiga
