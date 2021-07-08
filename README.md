@@ -69,5 +69,8 @@ Caranya insert excel file ke talend baru import ke schema staging.
 - [X] Membuat datamart untuk business question pertama
 
 * 24 Juni - 7 Juli
-- [X] Menyiapkan business question pertama dan kedua
+- [X] Menyelesaikan business question pertama dan kedua
 - [X] Mencari business question ketiga
+
+* 8 Juli - 21 Juli
+- [X] Menyelesaikan business question ketiga
