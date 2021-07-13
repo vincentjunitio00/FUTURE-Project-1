@@ -74,3 +74,4 @@ Caranya insert excel file ke talend baru import ke schema staging.
 
 * 8 Juli - 21 Juli
 - [X] Menyelesaikan business question ketiga
+- [ ] Melakukan prediksi pada business question pertama menggunakan supervised learning
