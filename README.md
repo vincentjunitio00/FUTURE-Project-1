@@ -83,8 +83,8 @@ Caranya insert excel file ke talend baru import ke schema staging.
 - [X] Melakukan simulasi presentasi dengan mentor HR
 
 * 5 Agustus - 18 Agustus
-- [ ] Meningkatkan performa supervised learning
-- [ ] Meningkatkan performa unsupervised learning
-- [ ] Revisi PPT
-- [ ] Membuat medium untuk pelaporan project
-- [ ] Mengumpulkan dan merapikan repository
+- [X] Meningkatkan performa supervised learning
+- [X] Meningkatkan performa unsupervised learning
+- [X] Revisi PPT
+- [ ] Membuat medium untuk pelaporan project (in progress)
+- [ ] Mengumpulkan dan merapikan repository (in progress)
