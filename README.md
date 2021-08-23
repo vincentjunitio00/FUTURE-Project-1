@@ -4,7 +4,8 @@ Repository yang memuat semua file dalam pengerjaan Project #1 Blibli FUTURE Prog
 
 Oleh: Vincent Junitio Ungu - Data Track
 
-Google drive: https://drive.google.com/drive/folders/15m9gJwCkSskd4R_irVgVe175hNZWkn-C?usp=sharing
+Deliverables dan beberapa file tambahan dapat ditemukan di google drive berikut. \
+Google drive: https://drive.google.com/drive/folders/1n9oExx8yG_2UYnArm2k3GnLjDRNEQZfv?usp=sharing
 
 
 # Pengenalan Proyek
@@ -26,10 +27,6 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [X] Export backup file .bak (tapi ragu apakah caranya benar)
 - [X] Memfinalisasikan semua file sebelum mentoring (23 Februari): explore.md, .bak, erd.png
 
-* yang binggung:
-1. Apakah 7 csv tersebut kalau import ke dbeaver dan jadi satu database sudah dinamakan Data warehouse? [Solved] => 7 csv ini kalau di satu database jadi OLTP dan untuk ke DWH butuh ETL karena struktur DWH berbeda dengan database OLTP.
-2. Apakah cara export .bak file sudah benar?
-
 * 23 Februari - 8 Maret
 
 - [X] Eksplor ulang cara pembuatan data warehouse
@@ -37,11 +34,10 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 * 9 Maret - 23 Maret
 
 - [X] Belajar Talend dan review ulang project
-* database di postgre harus ulang karena sudah dilakukan pengubahan dari data asli yang dikirim mentor
 
 * 24 Maret - 7 April
 
-- [X] Ujian Tengah Semester di Universitas Gadjah Mada
+- [X] Belum ada progress karena ada ujian tengah semester di Universitas Gadjah Mada
 
 * 8 April - 21 April
 
@@ -88,5 +84,6 @@ Caranya insert excel file ke talend baru import ke schema staging.
 - [X] Revisi PPT
 - [X] Membuat medium untuk pelaporan project
 
-* 19 Agustus - 
-- [ ] Mengumpulkan dan merapikan repository (in progress)
+* 19 Agustus - 1 September
+- [X] Mengumpulkan dan merapikan repository
+- [X] Mempersiapkan diri untuk final presentation sambil menunggu jadwal ujian
