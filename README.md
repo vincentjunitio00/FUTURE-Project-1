@@ -26,7 +26,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 - [X] Melakukan eksplorasi mengenai star schema: terdiri dari fact table dan dimension table
 - [X] Membuat relationship diagram (ERD) antar tabel, kecuali user_details / user_dataset
 - [X] Menentukan primary key dan foreign key, kecuali user_details / user_dataset
-- [X] Export backup file .bak (tapi ragu apakah caranya benar)
+- [X] Export backup file .bak
 - [X] Memfinalisasikan semua file sebelum mentoring (23 Februari): explore.md, .bak, erd.png
 
 
@@ -56,7 +56,7 @@ Pembaharuan progres proyek akan dilakukan setiap dua minggu.
 
 * 22 April - 5 Mei
 
-- [X] Membuat dimension table Date.\
+- [X] Membuat dimension table Date\
 Caranya insert excel file ke talend baru import ke schema staging.
 - [X] Melakukan update pada erd
 - [X] Merubah tipe data kolom
