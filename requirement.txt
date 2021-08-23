@@ -1,3 +1,12 @@
-PostgreSQL 9.5
-Talend Open Studio V7.2.1
-dbeaver 7.3.3
+Data Engineering:
+- pgAdmin III (PostgreSQL 9.5.24)
+- dBeaver Community Edition 7.3.3
+- Talend Open Studio for Data Integration V 7.2.1
+
+
+Data Analysis:
+- Tableau Desktop 2021.1
+
+
+Data Science:
+- Google Colaboratory (pandas 1.1.5, numpy 1.19.5, math, matplotlib 3.2.2, seaborn 0.11.1, sklearn 0.22.2.post1, xgboost 0.90)
