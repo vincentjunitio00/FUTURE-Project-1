@@ -1,4 +1,4 @@
-# Explore.md #
+# Data and its relationship.md #
 
 Halaman ini akan berisi penjelasan mengenai eksplorasi data yang telah saya lakukan mengenai tujuh dataset yang telah di load di database.
 
